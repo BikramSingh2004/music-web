@@ -1,0 +1,254 @@
+/* *{
+   margin: 0;
+} */
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(25, 23, 30);
+}
+header{
+   margin: 0%;
+}
+ nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(33, 33, 178);
+    color: aliceblue;
+    margin:0px;
+    /* position: fixed; */
+ }
+ .name{
+   background: linear-gradient(#4AC29A #BDFFF3);
+ }
+ h1{
+    margin:10px 20px;
+    font-size: 30px;
+    padding: 0%;
+ }
+ .con{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-right: 40px;
+    color: rgb(151, 64, 69);
+ }
+ ul{list-style: none;
+    /* padding: 0; */
+    margin: 20px;
+    display: flex;
+    /* justify-content:space-between; */
+ }
+ a{
+   color: aliceblue;
+ }
+ li{color: aliceblue;
+   /* background-color: rgb(84, 194, 143); */
+   margin:0px 10px ;
+   padding: 2px;
+ }
+ .list1:hover{
+    color: aquamarine;
+    background-color: rgb(66, 203, 185);
+    border-radius: 10px;
+ }
+ .intro{
+   display: flex;
+   /* justify-content:space-between; */
+   height: 700px;
+  background-image: url(https://media.istockphoto.com/id/483495210/photo/concert-crowd.jpg?b=1&s=612x612&w=0&k=20&c=6qmVrs0wu4gwKm3aOKlz3sWjG46zFF-VfYyVaYJdp1g=);
+ /* background-image: url(music1.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+  .text{
+   color: rgb(224, 221, 37);
+   font-size: 1.6rem;
+   padding: 1.2rem 0px 0px 1rem;
+   padding: 9rem 0rem 0rem 15rem;
+
+   font-family: cursive;
+  }
+  .bold{
+   display: inline-block;
+   width: auto;
+   /* padding: 9rem 0rem 0rem 15rem; */
+   letter-spacing:0em;
+   font-size: 5rem;
+  }
+section{
+   padding: 0%;
+   margin: 0px;
+   flex-wrap: wrap;
+   display: flexbox;
+}
+.section2{
+   background-color: #c9503b;
+   height: 800px;
+   /* width: 800px; */
+   background-image: url(music.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain ;
+   width: 100%;
+   display: flex;
+   align-items: flex-end;
+   background-attachment: fixed;
+
+}
+.section4{
+      background-color: #ceedf2;
+      height: 600px;
+      background-image: url(card.jpeg);
+      background-repeat: no-repeat;
+      /* background-size: contain; */
+      background-position: center;
+   background-attachment: fixed;
+}
+footer{
+   height: 250px;
+   font-size:1.6rem;
+   background-color: rgb(41, 40, 40);
+}
+.list2:hover{
+   /* font-size: xx-large; */
+   color: rgb(61, 206, 239);
+}
+.circle{
+   display: flex;
+   position: absolute;
+   width: 20%;
+   height: 200px;
+   border-radius: 3.1rem;
+   background-color: rgb(91, 124, 214);
+  margin: 1.5rem;
+  transition: all 1s  ease-in-out 0.5s ;
+}
+
+#CIRCLE1{
+   background-image: url(SONG1.PNG);
+   background-size: cover;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 10%;
+}
+#CIRCLE2{
+   background-image: url(tumtak.png);
+   background-size: cover;
+   align-items: center;
+   justify-content: space-around;
+   margin-left:33%;
+}
+#CIRCLE3{
+   background-image: url(quafirana.png);
+   background-size: cover;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 54%;
+}
+audio{
+   height:25px;
+   width:8rem;
+}
+/* .section2:hower{
+   display: flex;} */
+.circle:hover{
+   width: 50%;
+   height: 400px;
+   /* position:relative; */
+   /* margin-left: 10%; */
+   /* padding: 0%; */
+   z-index: 3;
+   float: left;
+   /* display:flex; */
+}
+/* .sound{
+   width: 120px;
+   border-radius: 30px;
+   height: 18px;
+   background-color: rgb(215, 250, 234);
+   margin:25px;
+} */
+ .logo{
+   display: grid;
+   height: 40px;
+   /* margin-top: 180px; */
+   color: #eea231;
+   padding: 150px 0px  0px 10px  ;
+   padding: 9.37rem 0rem 0rem 0.625rem;
+ }
+
+ .logo a{
+   display: inline-block;
+   width: fit-content;
+   font-size: 3rem;
+   transition: all 1s ease;
+   /* animation: bounce 2s ease-in-out infinite ; */
+   animation : bounce 1s; 
+   animation-direction : alternate; 
+   animation-iteration-count : infinite;
+ }
+ @keyframes bounce{
+   from { 
+      transform: translate3d(0, 0, 0); 
+  } 
+  to { 
+      transform: translate3d(0, 50px, 0); 
+  }
+ }
+ .neon{ display: inline;
+   /* width: fit-content; */
+   height: 80px;
+   margin-bottom: 700px;
+   font-size: xx-large;
+   /* background-color: #0b0b0b; */
+   color: #f5f8f9;
+   text-shadow: 0 0 10px #fff,
+   0 0  20px #fff,
+   0 0 30px #00f,
+   0 0 40px #00f,
+   0 0 50px #00f,
+   0 0 60px #00f;
+ }
+
+ .section3{
+   background-color: #dfd8d8;
+   height: 700px;
+   background-image: url(vid1img.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   background-attachment: fixed;
+   display: flex;
+   /* justify-content: space-around; */
+   padding: 0%;
+}
+ .rect{
+   /* display: flex; */
+   width: 30%;
+   height: 400px;
+   background-color: #851c1c;
+   position:absolute;
+   /* float: left; */
+   /* margin: 150px 40px 20px 50px; */
+   margin: 9.4rem 2.5rem 1.25rem 3.12rem;
+   
+  transition: all 1s  ease-in-out 0.3s ;
+ }
+ #rect2{
+   margin-left:35%;
+ }
+ #rect3{
+   margin-left: 66%;
+ }
+ .rect:hover{
+   width: 40%;
+   height: 600px;
+   z-index: 2;
+   
+   /* display: flex; */
+   /* margin-left: 3rem; */
+
+}
+ 
